@@ -2,13 +2,13 @@
 apiVesrion: v1
 kind: Pod
 metadata:
-  name: radis pod
-  lables:
-    name: radis pod
+  name: redis pod
+  labels:
+    name: redis pod
     app: demo-voting-app
 spec:
    containers:
-     - name: radis
+     - name: redis
        image: redis
        ports:
          -containerPort: 6379

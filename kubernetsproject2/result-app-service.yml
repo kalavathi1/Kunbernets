@@ -3,7 +3,7 @@ apiVersion: v1
 kind: service
 metadata:
   name: result-service
-  lables:
+  labels:
     name: result-service
     app: demo-voting-app
 sepc:
